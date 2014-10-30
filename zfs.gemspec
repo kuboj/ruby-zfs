@@ -1,10 +1,11 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 require 'rake'
+require 'zfs/version'
 
 Gem::Specification.new do |s|
 	s.name        = "zfs"
-	s.version     = "0.1.1"
+	s.version     = ZFS::VERSION
 	s.platform    = Gem::Platform::RUBY
 	s.authors     = %w(kvs)
 	s.email       = %w(kvs@binarysolutions.dk)
