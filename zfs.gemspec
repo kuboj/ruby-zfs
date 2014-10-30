@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
 	s.name        = "zfs"
 	s.version     = ZFS::VERSION
 	s.platform    = Gem::Platform::RUBY
-	s.authors     = %w(kvs)
-	s.email       = %w(kvs@binarysolutions.dk)
-	s.homepage    = "https://github.com/kvs/ruby-zfs"
+	s.authors     = %w(kvs kuboj)
+	s.email       = %w(jakub.jursa@relbit.com)
+	s.homepage    = "https://github.com/kuboj/ruby-zfs"
 	s.summary     = "An library for interacting with ZFS"
 	s.description = %q{Makes it possible to query and manipulate ZFS filesystems, snapshots, etc.}
 
